@@ -47,7 +47,7 @@ import java.nio.channels.SocketChannel;
 import java.util.concurrent.*;
 
 /**
- * Provides an functional emulating (a subset of) implementation of AsynchronousServerSocketChannel in Java 7.
+ * Provides a functional emulating (a subset of) implementation of AsynchronousServerSocketChannel in Java 7.
  *
  * @author Andy Cheung
  */
