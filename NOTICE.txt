@@ -1,0 +1,3 @@
+(StandardCharsets.java)
+
+This app uses some code from openJDK project, which is licensed under GPLv2 with "Classpath" exception. For details, see LICENSE-openJDK.txt
