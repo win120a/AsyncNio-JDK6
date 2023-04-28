@@ -64,7 +64,7 @@ public abstract class AsyncTask<R, A> implements Runnable, Future<R> {
         status = TaskStatus.NOT_FINISHED;
     }
 
-    public AsyncTask(A attachment, CompletionHandler<R, ? super A> completionHandler) {
+    protected AsyncTask(A attachment, CompletionHandler<R, ? super A> completionHandler) {
         this();
         this.handler = completionHandler;
         this.attachment = attachment;
